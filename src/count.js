@@ -35,15 +35,15 @@ async function renderChart() {
                 scales: {
                     x: {
                         type: 'linear',
-                        max:100,
+                        max: 100,
                         beginAtZero: true,
                     },
                     y: {
                         type: 'category',
                     }
                 },
-                ticks:{
-                    stepSize:10,
+                ticks: {
+                    stepSize: 10,
                 }
             }
         });
